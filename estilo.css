@@ -194,3 +194,40 @@
 .formulario button:hover {
   background-color: #dea16c;
 }
+
+.seccion-presentacion {
+  background-color: #fdebd0;
+  padding: 100px 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-presentacion {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 50px;
+  max-width: 800px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  color: rgb(0, 0, 0);
+}
+
+.contenedor-presentacion h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contenedor-presentacion h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.contenedor-presentacion p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
