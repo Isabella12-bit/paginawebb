@@ -49,7 +49,7 @@ body {
 
 .imagenes {
   display: flex;
-  /*justify-content: center;*/
+  justify-content: center;
   flex-wrap: wrap;
   gap: 0;
   width: 100%;
@@ -91,7 +91,7 @@ body {
   .caja-3 img {
       width: 100%;
       height: 400px;
-      object-fit: cover; 
+      object-fit: cover;
   }
   
 
