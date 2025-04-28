@@ -61,30 +61,40 @@ body {
     height:440px;
   }
 
-  .caja-1 img{
+  /* .caja-1 img{
     width: 100%;
     height: 100%;
-  }
+  } */
   
   .caja-2 {
     width: 360px;
     height: 440px;
   }
 
-  .caja-2 img{
+  /* .caja-2 img{
     width: 100%;
     height: 100%;
-  }
+  } */
 
   .caja-3 {
     width: 310px;
     height:440px;
   }
 
-  .caja-3 img{
+  /* .caja-3 img{
     width: 100%;
     height: 100%;
+  } */
+
+  .caja-1 img,
+  .caja-2 img,
+  .caja-3 img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover; 
   }
+  
+
 
   .opciones {
     display: flex;
